@@ -1,10 +1,22 @@
-﻿# Euclidean-Algorithm
-Python script that calculates the greatest common divisor between two numbers based on the Euclidean Algorithm
-The Euclidean Algorithm states that gcd(a, b) = gcd(b, r), where:
- a > b
- a and b are positive integers
- r = remainder of a and b (a = qb + r)
-The algorithm computes until r = 0, resulting in gcd(b, 0)- which is simply b. 
- 
+# Euclidean Algorithm
+
+This Python script calculates the greatest common divisor (GCD) between two numbers using the Euclidean Algorithm.
+
+## How the Algorithm Works
+
+The Euclidean Algorithm states:
+
+> **gcd(a, b) = gcd(b, r)**
+
+Where:
+- **a > b**
+- **a** and **b** are positive integers
+- **r** is the remainder when **a** is divided by **b**  
+  (i.e., **a = q × b + r**)
+
+The algorithm repeats the process, replacing **a** with **b** and **b** with **r**, until **r = 0**.  
+At that point, **gcd(b, 0) = b**, which is the greatest common divisor.
+
+---
 
  
