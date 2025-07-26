@@ -1,5 +1,4 @@
 ﻿# Euclidean-Algorithm
-Goal: Practice Recursion
 Python script that calculates the greatest common divisor between two numbers based on the Euclidean Algorithm
 The Euclidean Algorithm states that gcd(a, b) = gcd(b, r), where:
  a > b
